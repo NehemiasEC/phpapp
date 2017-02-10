@@ -11,7 +11,6 @@
 		<?php 
 
 			$string = "Tipo de cadena";
-			$
 			print($nombre);
 
 		 ?>
