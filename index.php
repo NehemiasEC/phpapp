@@ -11,7 +11,9 @@
 		<?php 
 
 			$string = "Tipo de cadena";
-			print($nombre);
+			print($string);
+			$boolean = true;
+			print($boolean);
 
 		 ?>
 
