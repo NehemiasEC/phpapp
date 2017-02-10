@@ -8,14 +8,22 @@
 	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
 	</head>
 	<body>
-		<?php 
+		<div class="container">
+			<div class="row">
+	      		<div class="col s12">This div is 12-columns wide</div>
+	      		<div class="col s6">This div is 6-columns wide</div>
+	      		<div class="col s6">This div is 6-columns wide</div>
+	    	</div>
+			<?php 
 
-			$string = "Tipo de cadena";
-			print($string);
-			$boolean = true;
-			print($boolean);
+				$string = "Tipo de cadena";
+				print($string);
+				$boolean = true;
+				print($boolean);
 
-		 ?>
+		 	?>
+		</div>
+		
 
 	</body>
 </html>
