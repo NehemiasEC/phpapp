@@ -1,3 +1,4 @@
+<?php include_once("config.php")?>
 <!doctype html>
 <html lang="en">
 	<head>
@@ -6,7 +7,7 @@
 	    <title>primer app</title>
 	    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	    <link rel="stylesheet" href="css/bootstrap.min.css">
-	    <script src="js/jquery-3.1.1.min.js"></script>
+	    <script src="<?php print(PATH);?>/js/jquery-3.1.1.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -21,8 +22,6 @@
 				print($string);
 				$boolean = true;
 				print($boolean);
-				define("PATH",__FILE__);
-				print(PATH);
 
 		 	?>
 		</div>
