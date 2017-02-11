@@ -1,3 +1,3 @@
 <?php 
-	define("PATH",__DIR__);
+	define("DIR",__DIR__);
 ?>

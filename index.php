@@ -17,11 +17,7 @@
 	      		<div class="col s6">This div is 6-columns wide</div>
 	    	</div>
 			<?php 
-
-				$string = "Tipo de cadena";
-				print($string);
-				$boolean = true;
-				print($boolean);
+				print(DIR);
 
 		 	?>
 		</div>
